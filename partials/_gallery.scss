@@ -1,0 +1,26 @@
+main{
+    background-color: $black;
+}
+
+.gallery{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    text-align: center;
+    
+    .galleryItem{
+        margin: 10px;
+        flex-basis: calc(100% / 3 - 20px);
+    }
+    figure{
+        margin: 0;
+    }
+}
+
+.galleryItem > p {
+    color: $white;
+    font-family: $mainFont;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
