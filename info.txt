@@ -1,0 +1,14 @@
+Notes to Self
+
+- CV as appearing / disappearing text sections:
+    1. Tours
+    2. Venues
+    3. Events
+
+- JQuery sliders for photo gallery pages 
+
+- Copy the head into each of the HTML pages in order to keep the fonts 
+
+- Inspo
+
+http://stephenpollarddesign.com/page1.htm

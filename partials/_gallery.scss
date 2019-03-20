@@ -8,19 +8,42 @@ main{
     flex-wrap: wrap;
     padding: 70px 0;
     text-align: center;
-    
+
     .galleryItem{
         margin: 10px;
         flex-basis: calc(100% / 3 - 20px);
+        position: relative;
+        z-index: 0;
+
+        > .artistName {
+            color: $white;
+            font-family: $mainFont;
+            font-size: 1.3rem;
+            font-weight: lighter;
+            position: relative;
+            transition: all 0.3s;
+            z-index: 3;
+        }
+        .galleryOverlay{
+            background-color: $overlay;
+            display: none;
+            position: absolute;
+            top:0; right: 0; bottom: 0; left: 0;
+            z-index: 1;
+        }
     }
     figure{
         margin: 0;
     }
 }
 
-.galleryItem > p {
-    color: $white;
-    font-family: $mainFont;
-    font-size: 1.3rem;
-    font-weight: lighter;
+.galleryItem{
+    &:hover .galleryOverlay{
+        display: flex;
+    }
+    &:hover > .artistName{
+        color: $mainPink;
+        text-shadow: 1px 1px $shadows;
+        transform: scale(1.5);
+    }
 }

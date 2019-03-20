@@ -10,32 +10,36 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        <!-- HEADER CSS -->
+        <!-- HEADER -->
         <header>
             <div class="wrapper headerFlex">
-                <h1>Marlow<span class="allcaps">cowan</span></h1>
+                <h1><a href="index.html">Marlow<span class="allcaps">cowan</span></a></h1>
+                    
                 <nav>
                     <ul>
                         <li>
-                            <a href="">Portfolio</a>
+                            <a href="index.html">Portfolio</a>
                         </li>
+                        
                         <li>
-                            <a href="">Skills</a>
+                            <a href="cv.html">CV</a>
                         </li>
+                        <!-- <li>
+                                <a href="skills.html">Skills</a>
+                        </li> -->
                         <li>
-                            <a href="">CV</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <!-- END OF HEADER CSS -->
+        <!-- END OF HEADER  -->
+        <!-- START OF MAIN -->
         <main>
             <div class="wrapper">
                 <div class="gallery">
@@ -43,43 +47,90 @@
                         <figure>
                             <img src="assets/unsplash-red.jpg" alt="">
                         </figure>
-                        <p>Dragonette</p>
+                        <p class="artistName">Dragonette</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                     <div class="galleryItem">
                         <figure>
                             <img src="assets/unsplash-blue.jpg" alt="">
                         </figure>
-                        <p>Keys N Krates</p>
+                        <p class="artistName">Keys N Krates</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                     <div class="galleryItem">
                         <figure>
                             <img src="assets/unsplash-green.jpg" alt="">
                         </figure>
-                        <p>The New Deal</p>
+                        <p class="artistName">The New Deal</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                     <div class="galleryItem">
                         <figure>
                             <img src="assets/unsplash-blue.jpg" alt="">
                         </figure>
-                        <p>Artist Name</p>
+                        <p class="artistName">Event Name</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                     <div class="galleryItem">
                         <figure>
                             <img src="assets/unsplash-green.jpg" alt="">
                         </figure>
-                        <p>Artist Name</p>
+                        <p class="artistName">Party Name + Date</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                     <div class="galleryItem">
                         <figure>
                             <img src="assets/unsplash-red.jpg" alt="">
                         </figure>
-                        <p>Artist Name</p>
+                        <p class="artistName">Artist Name</p>
+                        <div class="galleryOverlay"></div>
+                    </div>
+                    <div class="galleryItem">
+                        <figure>
+                            <img src="assets/unsplash-blue.jpg" alt="">
+                        </figure>
+                        <p class="artistName">Event Name</p>
+                        <div class="galleryOverlay"></div>
+                    </div>
+                    <div class="galleryItem">
+                        <figure>
+                            <img src="assets/unsplash-green.jpg" alt="">
+                        </figure>
+                        <p class="artistName">Party Name + Date</p>
+                        <div class="galleryOverlay"></div>
+                    </div>
+                    <div class="galleryItem">
+                        <figure>
+                            <img src="assets/unsplash-red.jpg" alt="">
+                        </figure>
+                        <p class="artistName">Artist Name</p>
+                        <div class="galleryOverlay"></div>
                     </div>
                 </div>
             </div>
         </main>
+        <!-- END OF MAIN  -->
+        <!-- START OF FOOTER  -->
+        <footer>
+            <div class="wrapper">
+                <div class="contact" id="contact">
+                    <h2 class="contactHeader">Want to work together? Let's make it happen.</h2>
+                    <h3><a href="sms://6475399535" class="sms"><i class="far fa-comment-alt"></i> Shoot me a text.</a></h3>
+                    <h3><a href="mailto:#" class="email"><i class="far fa-envelope"></i> Send me an email.</a></h3>
+                </div>
+            </div>
+        </footer>
+        <!-- END OF FOOTER -->
 
-        
-        <script src="" async defer></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+        <script>
+        $(function(){
+            $("a").smoothScroll({
+                speed: 200,
+            });
+        });
+        </script>
+	
     </body>
 </html>

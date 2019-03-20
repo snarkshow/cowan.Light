@@ -1,0 +1,26 @@
+footer{
+    color: $white;
+    background-color: $black;
+    padding: 0 20px 70px;
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-family: $mainFont;
+    text-align: center;
+    h2,
+    .sms,
+    .email {
+        color: $lightgrey;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+}
+
+.contact h3:hover{
+    transform: scale(1.5);
+    transition: all 0.3s;
+}
