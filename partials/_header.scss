@@ -35,12 +35,7 @@ nav {
             padding: 10px 30px 0;
         }
             a{
-                color: $lightgrey;
-                font-family: $mainFont;
-                font-size: 1.25rem;
-                font-weight: lighter;
-                letter-spacing: 1px;
-                text-transform: uppercase;
+                @include navLinks;
             }
 }
 

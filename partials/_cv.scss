@@ -1,0 +1,47 @@
+.cvFlex{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cvNav{
+    border: 1px solid $lightgrey;
+    border-radius: 5px;
+    display: flex;
+    li{
+        padding: 15px 50px;
+    }
+    // li::after{
+    //     content: "|";
+    // }
+    h3 {
+        margin: 0;
+    }
+        a{
+        @include navLinks;
+        
+    }
+}
+
+.tourFlex{
+    display: flex;
+    justify-content: center;
+    h3 a {
+        @include navLinks;
+    }
+}
+
+section {
+    display: none;
+  }
+
+.menu.shown {
+    display: block;
+  }
+
+
+.tourItem h4,
+.eventItem h4 {
+    @include cvItems;
+}

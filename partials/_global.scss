@@ -11,3 +11,21 @@ $overlay: rgba(245, 243, 239, 0.288);
 
 $mainFont: 'Oswald', sans-serif;
 
+// MIXINS
+
+@mixin navLinks {
+    color: $lightgrey;
+    font-family: $mainFont;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@mixin cvItems {
+    color: $lightgrey;
+    font-family: $mainFont;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    margin: 10px;
+}
