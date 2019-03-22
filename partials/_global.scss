@@ -22,7 +22,7 @@ $mainFont: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
-@mixin cvItems {
+@mixin smallItems {
     color: $lightgrey;
     font-family: $mainFont;
     font-size: 1.25rem;

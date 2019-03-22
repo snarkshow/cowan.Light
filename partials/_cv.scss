@@ -12,9 +12,7 @@
     li{
         padding: 15px 50px;
     }
-    // li::after{
-    //     content: "|";
-    // }
+
     h3 {
         margin: 0;
     }
@@ -44,5 +42,5 @@ section {
 .tourItem h4,
 .eventItem h4,
 .venueItem h4 {
-    @include cvItems;
+    @include smallItems;
 }
