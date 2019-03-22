@@ -42,6 +42,7 @@ section {
 
 
 .tourItem h4,
-.eventItem h4 {
+.eventItem h4,
+.venueItem h4 {
     @include cvItems;
 }
