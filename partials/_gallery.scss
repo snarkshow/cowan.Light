@@ -68,9 +68,10 @@ main{
 @media (max-width: 767px){
     
     .gallery{
+        padding: 30px 0 0;
         .galleryItem{
-            margin: 20px 40px;
-            flex-basis: calc(100% - 80px);
+            margin: 15px;
+            flex-basis: calc(100% - 30px);
         }
     }
             

@@ -340,10 +340,12 @@ main {
     flex-basis: calc(100% / 2 - 40px); } }
 
 @media (max-width: 767px) {
-  .gallery .galleryItem {
-    margin: 20px 40px;
-    -ms-flex-preferred-size: calc(100% - 80px);
-    flex-basis: calc(100% - 80px); } }
+  .gallery {
+    padding: 30px 0 0; }
+    .gallery .galleryItem {
+      margin: 15px;
+      -ms-flex-preferred-size: calc(100% - 30px);
+      flex-basis: calc(100% - 30px); } }
 
 footer {
   background-color: #141414;
