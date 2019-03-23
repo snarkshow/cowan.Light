@@ -47,3 +47,31 @@ main{
         transform: scale(1.5);
     }
 }
+
+// MEDIA QUERIES
+
+@media (max-width: 1100px){
+    
+            
+}
+
+@media (max-width: 980px){
+    .gallery{
+        .galleryItem{
+            margin: 20px;
+            flex-basis: calc(100% / 2 - 40px);
+        }
+    }
+            
+}
+
+@media (max-width: 767px){
+    
+    .gallery{
+        .galleryItem{
+            margin: 20px 40px;
+            flex-basis: calc(100% - 80px);
+        }
+    }
+            
+}

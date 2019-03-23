@@ -22,16 +22,14 @@
     }
 }
 
-.tourFlex{
-    display: flex;
-    justify-content: center;
-    h3 a {
-        @include navLinks;
-    }
-}
 
 section {
     display: none;
+    width: 50%;
+    ~ li{
+        margin: 0;
+        padding: 0;
+    }
   }
 
 .menu.shown {
@@ -43,4 +41,71 @@ section {
 .eventItem h4,
 .venueItem h4 {
     @include smallItems;
+}
+
+.list {
+    display: flex;
+    .artist,
+    .event,
+    .venue {
+        margin-right: 0.5em;
+        flex: 1;
+        display: flex;
+        &:after{
+            content: '';
+            border-bottom: dashed 1px $mainPink;
+            flex:1;
+        }
+    .date,
+    .location {
+        text-align: right;
+        flex: 0 0 8rem;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .cvNav{
+        li{
+            padding: 15px 30px;
+        }
+    
+    }
+}
+
+    
+@media (max-width: 480px){
+    .cvNav{
+        li{
+            padding: 10px 12px;
+        }
+    }
+
+    section {
+        width: 75%;
+      }
+    
+    .list {
+        flex-direction: column;
+        .artist,
+        .event,
+        .venue {
+            margin-right: 0.5em;
+            flex: 1;
+            display: flex;
+            &:after{
+                border-bottom: none;
+            }
+        }
+    }
+
+    .list{
+        .date,
+        .location{
+            border-bottom: 1px dashed $mainPink;
+            padding-bottom: 5px;
+        }
+    }
+    
+            
 }
