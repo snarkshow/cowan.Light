@@ -20,6 +20,8 @@ footer{
 }
 
 .contact h3:hover{
-    transform: scale(1.5);
+    display: inline-block;
+    margin: 0;
+    transform: scale(1.1);
     transition: all 0.3s;
 }

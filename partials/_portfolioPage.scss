@@ -2,17 +2,31 @@ main{
     background: $black;
 }
 
+.portfolioTitle{
+    @include navLinks;
+    text-align: center;
+}
+
+.galleryFlex{
+    display: flex;
+}
+
 .breadCrumb {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 25%;
     h4{
         padding: 0;
-        margin: 40px 0 0;
+        margin: 5px;
     }
     a{
         @include smallItems;
 
     }
+}
+
+#currentPage{ 
+    color: $mainPink;
 }
 
 .portfolioGallery{
@@ -22,6 +36,7 @@ main{
     margin: 0;
     padding: 20px 0 70px;
     text-align: center;
+    width: 75%;
     li{
         margin: 5px;
         flex-basis: calc(100% / 4 - 10px);

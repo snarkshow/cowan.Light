@@ -9,9 +9,12 @@ Notes to Self
 
 - Copy the head into each of the HTML pages in order to keep the fonts 
 
+- Add a sidebar index for navigating portfolio pages
+
 - Inspo
 
 http://stephenpollarddesign.com/page1.htm
 http://stephenpollarddesign.com/page1.htm
 http://www.simonrossiter.com/portfolio.php?en
 http://bonnie-beecher.squarespace.com/
+

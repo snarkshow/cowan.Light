@@ -25,7 +25,7 @@ main{
             z-index: 3;
         }
          .galleryOverlay{
-            background-color: $overlay;
+            background-color: none;
             display: none;
             position: absolute;
             top:0; right: 0; bottom: 0; left: 0;
