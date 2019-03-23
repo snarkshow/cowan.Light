@@ -189,9 +189,6 @@ template {
   margin: 0 auto;
   max-width: 1280px; }
 
-* {
-  border: 1px red dashed; }
-
 a {
   text-decoration: none; }
 
