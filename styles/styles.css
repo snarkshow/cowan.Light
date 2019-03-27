@@ -367,17 +367,8 @@ footer {
     color: #f5f5f5;
     font-size: 1.5rem;
     font-weight: lighter;
-    letter-spacing: 2px; }
-
-.contact h3:hover {
-  display: inline-block;
-  margin: 0;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
+    letter-spacing: 2px;
+    margin: 10px 0; }
 
 @media (max-width: 480px) {
   footer {

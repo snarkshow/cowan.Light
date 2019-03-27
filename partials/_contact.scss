@@ -16,16 +16,11 @@ footer{
         font-size: 1.5rem;
         font-weight: lighter;
         letter-spacing: 2px;
-    }
+        margin: 10px 0;
+}
 }
 
-.contact h3:hover{
-    margin: 0;
-    transform: scale(1.1);
-    transition: all 0.3s;
-}
-
-@media (max-width: 480px){
+@media (max-width: 480px) {
     footer{
         padding: 30px 20px;
     }
