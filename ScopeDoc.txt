@@ -1,0 +1,29 @@
+SCOPE
+
+Fonts: 
+-'Oswald', sans-serif;
+
+Colour Palette:
+- Pink
+- Purple for text shadows
+- Off-black
+- Off-white
+
+Brief: 
+Portfolio website for a professional club and concert lighting designer.  
+Heavy focus on displaying images.
+Must be able to navigate quickly from album to album.
+
+Stretch Goals:
+- Hover effects on homepage and contact form
+- JQuery plugins for skimming photos
+- JQuery for contact form (available on every page as a footer)
+- JQuery for navigating different parts of the CV
+
+Inspo
+
+http://stephenpollarddesign.com/page1.htm
+http://stephenpollarddesign.com/page1.htm
+http://www.simonrossiter.com/portfolio.php?en
+http://bonnie-beecher.squarespace.com/
+
