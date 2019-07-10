@@ -27,3 +27,19 @@ http://stephenpollarddesign.com/page1.htm
 http://www.simonrossiter.com/portfolio.php?en
 http://bonnie-beecher.squarespace.com/
 
+Skills & Certifications 
+
+<!-- SITE BREADCRUMB -->
+    <div class="breadCrumb">
+        <h4><a href="keysnkrateswinter2018.html" Keys N Krates Winter 2018 </a></h4>
+        <h4><a href="keysnkratessummer2018.html">Keys N Krates Summer 2018 </a></h4>
+        <h4><a href="dragonetteroyalblues.html"> Dragonette Royal Blues 2016</a></h4>
+        <h4><a href="3-thenewdeal.html">theNEWDEAL</a></h4>
+        <h4><a href="#">Event Name</a></h4>
+        <h4><a href="#">Party Name + Date</a></h4>
+        <h4><a href="#">Artist Name</a></h4>
+        <h4><a href="#">Event Name</a></h4>
+        <h4><a href="#">Party Name + Date</a></h4>
+        <h4><a href="#">Artist Name</a></h4>
+    </div>
+<!-- END OF SITE BREADCRUMB -->
