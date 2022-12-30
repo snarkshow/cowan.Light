@@ -22,7 +22,7 @@
     "gulp-lintspaces": "^1.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "puppeteer": "^1.13.0"
   },
   "keywords": [
